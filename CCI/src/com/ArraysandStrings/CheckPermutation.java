@@ -1,3 +1,4 @@
+package com.ArraysandStrings;
 import java.util.HashMap;
 
 //1.2 Check Permutation: Given two strings, write a method to decide if one is a permutation of the other.page 101
@@ -23,7 +24,9 @@ public class CheckPermutation {
 	public static void main(String[] args) {
 		Boolean b= permute("Helo", "oleH");
 		System.out.println(b);
-
+// This soln does not work because 
+//In hashmap in the key value pair the key has to be unique here key will be duplicate and it will be discarded and new value will be overridden
+// better soln https://algorithms.tutorialhorizon.com/find-whether-two-strings-are-permutation-of-each-other/		
 	}
 
 }
